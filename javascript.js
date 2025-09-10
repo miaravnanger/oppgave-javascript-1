@@ -25,7 +25,18 @@ const når du definerer variablene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
+const myName = "Mia";
+console.log(myName);
 
+let age = 26;
+console.log(age);
+
+const hasBrownHair = true;
+console.log(hasBrownHair);
+
+let wishList = ["money", "clothes", "computer", "new bed"];
+
+console.log(wishList);
 /******************************************************************************
 OPPGAVE 3
 
@@ -38,6 +49,37 @@ Skriv noen eksempler der du tester disse operatorene.
 
 // Skriv koden for oppgave 3 her
 
+let points = 2;
+let newPoints = 6;
+myScore = points + newPoints;
+
+console.log(myScore);
+
+let count = 0;
+count += 2;
+console.log(count);
+
+let oldScore = 15;
+let minusPoints = 3;
+newScore = oldScore - minusPoints;
+console.log(newScore);
+
+let score = 15;
+score -= minusPoints;
+
+console.log(score);
+
+let pizzaSlices = 8;
+let people = 2;
+
+slicesEach = pizzaSlices / people;
+console.log(slicesEach);
+
+const num1 = 5;
+const num2 = 9;
+
+sum = num1 * num2;
+console.log(sum);
 /******************************************************************************
 OPPGAVE 4
 
