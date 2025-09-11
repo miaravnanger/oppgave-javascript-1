@@ -51,13 +51,24 @@ Skriv noen eksempler der du tester disse operatorene.
 
 let points = 2;
 let newPoints = 6;
-myScore = points + newPoints;
+let myScore = points + newPoints;
 
 console.log(myScore);
 
 let count = 0;
 count += 2;
 console.log(count);
+
+count = 5;
+
+count++;
+console.log("hei", count);
+
+count--;
+console.log("heisann", count);
+
+count -= 4;
+console.log("heii", count);
 
 let oldScore = 15;
 let minusPoints = 3;
@@ -101,13 +112,20 @@ Prøv å endre verdiene på variablene for å sikre at IF/ELSE-setningen din
 håndterer alle tilfeller korrekt.
 ******************************************************************************/
 
-let userName = "";
+let userName = "mia";
 let userAge = 18;
 let userIsLoggedIn = false;
 let userIsBlocked = false;
 let goToPage = "";
 
 // Skriv koden for oppgave 4 her
+if (userName && userAge >= 18 && !userIsBlocked) {
+  userIsLoggedIn = true;
+  goToPage = "/home";
+  console.log("welcome!");
+} else {
+  console.log("error");
+}
 
 /******************************************************************************
 OPPGAVE 5
