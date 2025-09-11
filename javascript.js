@@ -25,18 +25,23 @@ const når du definerer variablene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
+
+//String
 const myName = "Mia";
 console.log(myName);
 
+//Number
 let age = 26;
 console.log(age);
 
+//Boolean
 const hasBrownHair = true;
 console.log(hasBrownHair);
 
+//Array
 let wishList = ["money", "clothes", "computer", "new bed"];
-
 console.log(wishList);
+
 /******************************************************************************
 OPPGAVE 3
 
@@ -49,43 +54,50 @@ Skriv noen eksempler der du tester disse operatorene.
 
 // Skriv koden for oppgave 3 her
 
+//plusser sammen gamle poeng og nye poeng for å få score
 let points = 2;
 let newPoints = 6;
 let myScore = points + newPoints;
+console.log(`You have ${myScore} points`);
 
-console.log(myScore);
-
-let count = 0;
+// plusser sammen count og 2
+let count = 5;
 count += 2;
 console.log(count);
 
-count = 5;
+let count2 = 5;
+//plusser 1 på count2
+count2++;
+console.log(count2);
 
-count++;
-console.log("hei", count);
+let count3 = 4;
+//trekker 1 fra count3
+count3--;
+console.log(count3);
 
-count--;
-console.log("heisann", count);
+let count4 = 8;
+//trekker fra 4 fra count4
+count4 -= 4;
+console.log(count4);
 
-count -= 4;
-console.log("heii", count);
-
+//trekker fra minuspoeng fra gammel score for å få ny score
 let oldScore = 15;
 let minusPoints = 3;
-newScore = oldScore - minusPoints;
+let newScore = oldScore - minusPoints;
 console.log(newScore);
 
+// gjør det samme men enklere
 let score = 15;
 score -= minusPoints;
-
 console.log(score);
 
+//deler pizzastykker på antall folk for å få antall stykker per pers
 let pizzaSlices = 8;
 let people = 2;
+let slicesEach = pizzaSlices / people;
+console.log(`You get ${slicesEach} slices each`);
 
-slicesEach = pizzaSlices / people;
-console.log(slicesEach);
-
+// ganger sammen tall
 const num1 = 5;
 const num2 = 9;
 
@@ -145,3 +157,6 @@ at betingelsen din fungerer som den skal.
 const userMale = false;
 
 // Skriv koden for oppgave 5 her
+const userTitle = userMale ? "Mr." : "Mrs.";
+
+console.log(userTitle);
