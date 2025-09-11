@@ -124,7 +124,7 @@ Prøv å endre verdiene på variablene for å sikre at IF/ELSE-setningen din
 håndterer alle tilfeller korrekt.
 ******************************************************************************/
 
-let userName = "mia";
+let userName = "Mia";
 let userAge = 18;
 let userIsLoggedIn = false;
 let userIsBlocked = false;
